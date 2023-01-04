@@ -1,18 +1,18 @@
 {
-    "jsc": {
-      "target": "es2017",
-      "parser": {
-        "syntax": "typescript",
-        "decorators": true
-      },
-      "baseUrl": "./src"
-      // "paths": {
-      //     "#seedwork/*": [
-      //         "./@seedwork/*"
-      //     ],
-      //     "#category/*": [
-      //         "./category/*"
-      //     ]
-      // }
-    }
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true
+    },
+    "baseUrl": "./src",
+    "target": "es2017"
+    // "paths": {
+    //     "#seedwork/*": [
+    //         "./@seedwork/*"
+    //     ],
+    //     "#category/*": [
+    //         "./category/*"
+    //     ]
+    // }
   }
+}
